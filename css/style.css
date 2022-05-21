@@ -285,3 +285,9 @@ main #s-home {
   border-radius: 15px;
   background: #122549;
 }
+@media (max-width: 414px) {
+  main #s-home {
+    width: 70vw;
+    height: 91vh;
+  }
+} ;
