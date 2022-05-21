@@ -292,37 +292,38 @@ main #s-home {
 
   .weather {
     top: 1rem;
-    left: 97.2%;
+    left: 95%;
   }
 
   .yo {
+    width: 14rem;
     top: 5rem;
     left: 18%;
   }
 
   .h3 {
-    top: 15rem;
-    left: 12%;
+    top: 17rem;
+    left: 2%;
   }
 
   .span {
-    top: 17rem;
-    left: 12%;
+    top: 19rem;
+    left: 2%;
   }
 
   .email {
-    top: 19rem;
-    left: 12%;
+    top: 21rem;
+    left: 2%;
   }
 
   .logo {
-    top: 21rem;
-    left: 30%;
+    top: 25rem;
+    left: 40%;
   }
 
   #s-home .links-container {
-    top: 25rem;
-    left: 15%;
+    top: 27rem;
+    left: 20%;
   }
 
   #s-home .links-container aside {
