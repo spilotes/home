@@ -6,6 +6,7 @@
 }
 
 body {
+  height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -19,79 +20,25 @@ body {
   overflow-x: hidden;
 }
 
-#s-home {
-  width: 100%;
-  height: 100vh;
+.um {
+  height: 200vh;
+  width: 100vw;
 }
 
 #dia {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: 600;
   top: 2rem;
-  left: 28%;
-  cursor: pointer;
+  left: 10%;
   position: absolute;
-  visibility: hidden;
 }
 
 .saudacao {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #fff;
-  top: 4.3rem;
-  left: 28.2%;
-  cursor: pointer;
+  top: 5rem;
+  left: 10.2%;
   position: absolute;
-  visibility: hidden;
-}
-
-.weather {
-  top: 2rem;
-  left: 66%;
-  text-align: right;
-  visibility: hidden;
-  position: absolute;
-}
-
-.location {
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.location:hover {
-  color: #fff;
-}
-
-.summary {
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.summary:hover {
-  color: #fff;
-}
-
-.temp {
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.temp:hover {
-  color: #fff;
-}
-
-.icon {
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.icon:hover {
-  transform: scale(1.03);
-}
-
-main #s-home {
-  display: grid;
-  grid-template-columns: repeat(1, 8rem);
-  grid-template-rows: minmax(4rem, auto) repeat(2, 2rem);
 }
 
 .yo {
@@ -106,11 +53,7 @@ main #s-home {
   transform: scale(1.03);
 }
 
-#s-home .infos {
-  visibility: hidden;
-}
-
-#s-home .h3 {
+h3 {
   cursor: pointer;
   font-size: 1.6rem;
   top: 19rem;
@@ -119,18 +62,18 @@ main #s-home {
   transition: all 0.3s ease-in-out;
 }
 
-#s-home .h3:hover {
+h3:hover {
   color: #fff;
 }
 
-#s-home span {
+span {
   top: 21rem;
   left: 41.6%;
   font-style: italic;
   position: absolute;
 }
 
-#s-home .email {
+.email {
   top: 23rem;
   left: 41.5%;
   color: black;
@@ -140,41 +83,32 @@ main #s-home {
   transition: all 0.3s ease-in-out;
 }
 
-#s-home .email:hover {
+.email:hover {
   color: #fff;
   text-decoration: underline;
 }
 
-.logo {
-  width: 8rem;
-  top: 25.3rem;
-  left: 49.4%;
-  visibility: hidden;
-  position: absolute;
-}
-
-#s-home .links-container {
+.links-container {
   display: flex;
-  left: 23.1rem;
+  margin-left: 23.6rem;
   flex-direction: column;
-  top: 28rem;
-  visibility: hidden;
-  position: absolute;
+  margin-top: -8rem;
 }
 
-#s-home .links-container aside {
+.links-container aside {
   display: flex;
 }
 
-#s-home .links-container aside a {
+.links-container aside a {
   text-decoration: none;
 }
 
-#s-home .links-container aside i {
-  width: 3.1rem;
+.links-container aside i {
+  width: 3rem;
+  height: 3rem;
   display: flex;
   cursor: pointer;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   padding: 0.5rem;
   margin-right: 1rem;
 
@@ -183,158 +117,82 @@ main #s-home {
   transition: all 300ms ease-in-out;
 }
 
-#s-home .links-container aside .telegram {
-  color: #000000;
+.links-container aside .telegram {
+  color: #007fff;
 }
 
-#s-home .links-container aside .telegram:hover {
+.links-container aside .telegram:hover {
   transform: scale(1.05);
 }
 
-#s-home .links-container aside .whatsapp {
-  color: #000000;
+.links-container aside .whatsapp {
+  color: #007fff;
 }
 
-#s-home .links-container aside .whatsapp:hover {
+.links-container aside .whatsapp:hover {
   transform: scale(1.05);
 }
 
-#s-home .links-container aside .github {
-  color: #000000;
+.links-container aside .github {
+  color: #007fff;
 }
 
-#s-home .links-container aside .github:hover {
+.links-container aside .github:hover {
   transform: scale(1.05);
 }
 
-#s-home .links-container aside .linkedin {
-  color: #000000;
+.links-container aside .linkedin {
+  color: #007fff;
 }
 
-#s-home .links-container aside .linkedin:hover {
+.links-container aside .linkedin:hover {
   transform: scale(1.05);
 }
 
-#s-home .links-container aside .instagram {
-  color: #000000;
+.links-container aside .instagram {
+  color: #007fff;
 }
 
-#s-home .links-container aside .instagram:hover {
+.links-container aside .instagram:hover {
   transform: scale(1.05);
 }
 
-#s-home .links-container aside .codepen {
-  color: #000000;
+.links-container aside .codepen {
+  color: #007fff;
 }
 
-#s-home .links-container aside .codepen:hover {
+.links-container aside .codepen:hover {
   transform: scale(1.05);
 }
 
-#s-home .links-container aside .facebook {
-  color: #000000;
+.links-container aside .facebook {
+  color: #007fff;
 }
 
-#s-home .links-container aside .facebook:hover {
+.links-container aside .facebook:hover {
   transform: scale(1.05);
 }
 
-#s-home .links-container aside .youtube {
-  color: #000000;
+.links-container aside .youtube {
+  color: #007fff;
 }
 
-#s-home .links-container aside .youtube:hover {
+.links-container aside .youtube:hover {
   transform: scale(1.05);
 }
 
-#s-home .links-container aside .twitch {
-  color: #000000;
+.links-container aside .twitch {
+  color: #007fff;
 }
 
-#s-home .links-container aside .twitch:hover {
+.links-container aside .twitch:hover {
   transform: scale(1.05);
 }
 
-#s-home .links-container aside .spotify {
-  color: #000000;
+.links-container aside .spotify {
+  color: #007fff;
 }
 
-#s-home .links-container aside .spotify:hover {
+.links-container aside .spotify:hover {
   transform: scale(1.05);
 }
-
-::-webkit-scrollbar {
-  width: 0.7rem;
-}
-
-::-webkit-scrollbar-track {
-  background: #000000;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 15px;
-  background: #122549;
-}
-@media (max-width: 414px) {
-  main #s-home {
-    height: 91vh;
-  }
-
-  #dia {
-    top: 1rem;
-    left: 4%;
-  }
-
-  .saudacao {
-    top: 3.7rem;
-    left: 4.8%;
-  }
-
-  .weather {
-    top: 1rem;
-    left: 92%;
-  }
-
-  .yo {
-    width: 14rem;
-    top: 5rem;
-    left: 19%;
-  }
-
-  .h3 {
-    top: 20rem;
-    left: -22%;
-  }
-
-  .span {
-    top: 22rem;
-    left: -22%;
-  }
-
-  .email {
-    top: 24rem;
-    left: 22%;
-  }
-
-  .logo {
-    top: 28.5rem;
-    left: 46%;
-  }
-
-  #s-home .links-container {
-    top: 27rem;
-    left: 20%;
-  }
-
-  #s-home .links-container aside {
-    margin-top: 3rem;
-    display: grid;
-    grid-template-columns: repeat(5, 3rem);
-    grid-template-rows: minmax(3rem, auto) repeat(5, 2rem);
-  }
-
-  #s-home .links-container aside i {
-    font-size: 2.4rem;
-    padding: 0;
-  }
-} ;
