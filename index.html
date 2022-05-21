@@ -2,67 +2,109 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <meta name="author" content="Ricardo Magalhães" />
+    <meta
+      name="description"
+      content="Meu nome é Ricardo, desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e SEO."
+    />
+    <meta
+      name="keywords"
+      content="sites, site, web, desenvolvimento, frontend, spilotes, programador, ui designer, ricardo, front-end, designer, ui, freelancer, freela, website, portfólio"
+    />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#000000" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="shortcut icon" type="imagex/png" href="./img/logoA.ico" />
+    <meta name="copyright" content="spilotes 2022" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta
+      property="og:image"
+      content="https://spilotes.vercel.app/assets/image/preview.png"
+    />
+    <meta
+      property="og:title"
+      content="spilotes"
+    />
+    <meta property="og:description" content="Frontend Developer" />
+    <link rel="shortcut icon" type="imagex/png" href="./img/logoA.ico">
     <title>home</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/mobile.css" />
+    <script
+        src="https://kit.fontawesome.com/81046c0766.js"
+        crossorigin="anonymous"
+      ></script>
   </head>
+
   <body>
-
     <main>
-        <section class="um">
-        <div>
-        <h1 id="dia"></h1>
-        </div>
-          <div class="saudacao">
-            <script language="JavaScript">
-              now = new Date();
-              if (now.getHours() >= 0 && now.getHours() < 5) {
-                document.write("boa madrugada, visitante.🤘");
-              } else if (now.getHours() >= 5 && now.getHours() < 12) {
-                document.write("bom dia, visitante.🤘");
-              } else if (now.getHours() >= 12 && now.getHours() < 18) {
-                document.write("boa tarde, visitante.🤘");
-              } else {
-                document.write("boa noite, visitante.🤘");
-              }
-            </script>
-          </div>
+        <section id="s-home">
           <div>
-              <figure>
-                  <img class="yo" src="./img/yo.jpeg" alt="Ricardo Spilotes">
-              </figure>
-          </div>
-
-          <div>
-            <h3>Ricardo Magalhães</h3>
-            <span>Front-end Developer</span>
-            <a href="mailto:ricardospilotes@gmail.com" class="email"
-              >ricardospilotes@gmail.com</a
-            >
-          </div>
-
-          <div class="buttons-container">
-            <div class="buttons">
-          <a href="#" target="_blank"><input type="button" value="Portifólio"></a>
-          <a href="https://t.me/ricardospilotes" target="_blank"><input type="button" value="Telegram"></a>
-          </a>
-          <a href="http://wa.me/5551983385777" target="_blank"><input type="button" value="Whatsapp"></a>
-          <a href="linkedin.com/in/ricardowebdev/" target="_blank"><input type="button" value="LinkedIn"></a>
-          <a href="https://github.com/spilotes" target="_blank"><input type="button" value="GitHub"></a>
-          <a href="https://codepen.io/Spilotes" target="_blank"><input type="button" value="CodeOpen"></a>
-          <a href="https://www.instagram.com/bakunin.provo/" target="_blank"><input type="button" value="Instagram"></a>
-          <a href="https://web.facebook.com/ricardo.spilotes/" target="_blank"><input type="button" value="Facebook"></a>
-          <a href="https://open.spotify.com/user/k8xqrgqgsmmezmm05786aoxdo?si=fQ0KxfWzTrWPZwwF-9Is2g" target="_blank"><input type="button" value="Spotify"></a>
-          </div>
-          </div>
+            <h1 id="dia"></h1>
+            </div>
+              <div class="saudacao">
+                <script language="JavaScript">
+                  now = new Date();
+                  if (now.getHours() >= 0 && now.getHours() < 5) {
+                    document.write("boa madrugada, visitante.🤘");
+                  } else if (now.getHours() >= 5 && now.getHours() < 12) {
+                    document.write("bom dia, visitante.🤘");
+                  } else if (now.getHours() >= 12 && now.getHours() < 18) {
+                    document.write("boa tarde, visitante.🤘");
+                  } else {
+                    document.write("boa noite, visitante.🤘");
+                  }
+                </script>
+              </div>
+              <div class="weather">
+                <div class="location"></div>
+                <div class="summary">----</div>
+                <div class="temp">-°C</div>
+                <div class="icon">---</div>
+              </div>
+            <div>
+                <figure>
+                    <img class="yo" src="./img/yo.jpeg" alt="Ricardo Spilotes">
+                </figure>
+            </div>
+                <div class="infos">
+                    <h3 class="h3">Ricardo Magalhães</h3>
+                    <span class="span">Web Developer</span>
+                  <a href="mailto:ricardospilotes@gmail.com" class="email">ricardospilotes@gmail.com</a>
+                  <figure>
+                    <img class="logo" src="./img/logo.png" alt="spilotes">
+                  </figure>
+                </div>
+            
+            <div class="links-container">
+                <aside>
+                    <a href="https://t.me/ricardospilotes" target="_blank"
+                    ><i class="fab fa-brands fa-telegram telegram"></i></a>
+                    <a href="https://wa.me/5551983385777?" target="_blank"
+                        ><i class="fab fa-brands fa-whatsapp-square whatsapp"></i></a>
+                    <a href="https://github.com/spilotes" target="_blank"
+                        ><i class="fab fa-brands fa-github-square github"></i></a>
+                    <a href="https://www.linkedin.com/in/ricardowebdev/" target="_blank"
+                        ><i class="fab fa-linkedin linkedin"></i></a>
+                    <a href="https://www.instagram.com/bakunin.provo/" target="_blank"
+                        ><i class="fab fa-brands fa-instagram-square instagram"></i></a>
+                    <a href="https://codepen.io/Spilotes" target="_blank"
+                        ><i class="fab fa-brands fa-codepen codepen"></i></a>
+                    <a href="https://www.facebook.com/ricardo.spilotes/" target="_blank"
+                        ><i class="fab fa-brands fa-facebook-square facebook"></i></a>
+                    <a href="https://www.youtube.com/channel/UCh7zmANYmClfM3hKHyDdiDA" target="_blank"
+                        ><i class="fab fa-brands fa-youtube youtube"></i></a>
+                    <a href="https://www.twitch.tv/spilotes1" target="_blank"
+                        ><i class="fab fa-brands fa-twitch twitch"></i></a>
+                    <a href="https://open.spotify.com/user/k8xqrgqgsmmezmm05786aoxdo?si=i9jhIoIQR_yaaq1S7iRX1g&utm_source=copy-link" target="_blank"
+                    ><i class="fab fa-brands fa-spotify spotify"></i></a>    
+                </aside>
+            </div>
         </section>
-        <script src="./js/dia.js" defer></script>
-  </body>
-</html>
+
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="./js/dia.js"></script>
+      <script src="./js/location.js"></script>
+      <script src="./js/logo.js"></script>
+      <script src="./js/scrollreveal.js" defer></script>
+    </body>
+  </html>
