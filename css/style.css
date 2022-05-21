@@ -298,27 +298,27 @@ main #s-home {
   .yo {
     width: 14rem;
     top: 5rem;
-    left: 18%;
+    left: 19%;
   }
 
   .h3 {
-    top: 17rem;
-    left: 2%;
+    top: 20rem;
+    left: -2%;
   }
 
   .span {
-    top: 19rem;
-    left: 2%;
+    top: 22rem;
+    left: -2%;
   }
 
   .email {
-    top: 21rem;
+    top: 24rem;
     left: 2%;
   }
 
   .logo {
-    top: 25rem;
-    left: 40%;
+    top: 28.5rem;
+    left: 45%;
   }
 
   #s-home .links-container {
@@ -334,7 +334,7 @@ main #s-home {
   }
 
   #s-home .links-container aside i {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     padding: 0;
   }
 } ;
