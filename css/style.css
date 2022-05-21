@@ -292,37 +292,37 @@ main #s-home {
 
   .weather {
     top: 1rem;
-    left: 85%;
+    left: 97.2%;
   }
 
   .yo {
-    top: 6.5rem;
+    top: 5rem;
     left: 18%;
   }
 
   .h3 {
-    top: 12rem;
-    left: 20%;
+    top: 15rem;
+    left: 12%;
   }
 
   .span {
-    top: 14rem;
-    left: 20%;
+    top: 17rem;
+    left: 12%;
   }
 
   .email {
-    top: 16rem;
-    left: 20%;
+    top: 19rem;
+    left: 12%;
   }
 
   .logo {
-    top: 18rem;
-    left: 20%;
+    top: 21rem;
+    left: 30%;
   }
 
   #s-home .links-container {
     top: 25rem;
-    left: 10%;
+    left: 15%;
   }
 
   #s-home .links-container aside {
@@ -333,7 +333,7 @@ main #s-home {
   }
 
   #s-home .links-container aside i {
-    font-size: 2rem;
+    font-size: 2.2rem;
     padding: 0;
   }
 } ;
