@@ -6,7 +6,6 @@
 }
 
 body {
-  height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -20,25 +19,89 @@ body {
   overflow-x: hidden;
 }
 
-.um {
-  height: 200vh;
-  width: 100vw;
+#s-home {
+  width: 100%;
+  height: 100vh;
 }
 
 #dia {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 600;
   top: 2rem;
-  left: 10%;
+  left: 28%;
+  cursor: pointer;
   position: absolute;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+#dia:hover {
+  color: #fff;
 }
 
 .saudacao {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #fff;
-  top: 5rem;
-  left: 10.2%;
+  top: 4.3rem;
+  left: 28.2%;
+  cursor: pointer;
   position: absolute;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.saudacao:hover {
+  color: #000000;
+}
+
+.weather {
+  top: 2rem;
+  left: 66%;
+  text-align: right;
+  visibility: hidden;
+  position: absolute;
+}
+
+.location {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.location:hover {
+  color: #fff;
+}
+
+.summary {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.summary:hover {
+  color: #fff;
+}
+
+.temp {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.temp:hover {
+  color: #fff;
+}
+
+.icon {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.03);
+}
+
+main #s-home {
+  display: grid;
+  grid-template-columns: repeat(1, 8rem);
+  grid-template-rows: minmax(4rem, auto) repeat(2, 2rem);
 }
 
 .yo {
@@ -53,7 +116,11 @@ body {
   transform: scale(1.03);
 }
 
-h3 {
+#s-home .infos {
+  visibility: hidden;
+}
+
+#s-home .h3 {
   cursor: pointer;
   font-size: 1.6rem;
   top: 19rem;
@@ -62,18 +129,18 @@ h3 {
   transition: all 0.3s ease-in-out;
 }
 
-h3:hover {
+#s-home .h3:hover {
   color: #fff;
 }
 
-span {
+#s-home span {
   top: 21rem;
   left: 41.6%;
   font-style: italic;
   position: absolute;
 }
 
-.email {
+#s-home .email {
   top: 23rem;
   left: 41.5%;
   color: black;
@@ -83,32 +150,41 @@ span {
   transition: all 0.3s ease-in-out;
 }
 
-.email:hover {
+#s-home .email:hover {
   color: #fff;
   text-decoration: underline;
 }
 
-.links-container {
+.logo {
+  width: 8rem;
+  top: 25.3rem;
+  left: 49.4%;
+  visibility: hidden;
+  position: absolute;
+}
+
+#s-home .links-container {
   display: flex;
-  margin-left: 23.6rem;
+  left: 23.1rem;
   flex-direction: column;
-  margin-top: -8rem;
+  top: 28rem;
+  visibility: hidden;
+  position: absolute;
 }
 
-.links-container aside {
+#s-home .links-container aside {
   display: flex;
 }
 
-.links-container aside a {
+#s-home .links-container aside a {
   text-decoration: none;
 }
 
-.links-container aside i {
-  width: 3rem;
-  height: 3rem;
+#s-home .links-container aside i {
+  width: 3.1rem;
   display: flex;
   cursor: pointer;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   padding: 0.5rem;
   margin-right: 1rem;
 
@@ -117,82 +193,132 @@ span {
   transition: all 300ms ease-in-out;
 }
 
-.links-container aside .telegram {
-  color: #007fff;
+#s-home .links-container aside .telegram {
+  color: #000000;
 }
 
-.links-container aside .telegram:hover {
+#s-home .links-container aside .telegram:hover {
   transform: scale(1.05);
 }
 
-.links-container aside .whatsapp {
-  color: #007fff;
+#s-home .links-container aside .whatsapp {
+  color: #000000;
 }
 
-.links-container aside .whatsapp:hover {
+#s-home .links-container aside .whatsapp:hover {
   transform: scale(1.05);
 }
 
-.links-container aside .github {
-  color: #007fff;
+#s-home .links-container aside .github {
+  color: #000000;
 }
 
-.links-container aside .github:hover {
+#s-home .links-container aside .github:hover {
   transform: scale(1.05);
 }
 
-.links-container aside .linkedin {
-  color: #007fff;
+#s-home .links-container aside .linkedin {
+  color: #000000;
 }
 
-.links-container aside .linkedin:hover {
+#s-home .links-container aside .linkedin:hover {
   transform: scale(1.05);
 }
 
-.links-container aside .instagram {
-  color: #007fff;
+#s-home .links-container aside .instagram {
+  color: #000000;
 }
 
-.links-container aside .instagram:hover {
+#s-home .links-container aside .instagram:hover {
   transform: scale(1.05);
 }
 
-.links-container aside .codepen {
-  color: #007fff;
+#s-home .links-container aside .codepen {
+  color: #000000;
 }
 
-.links-container aside .codepen:hover {
+#s-home .links-container aside .codepen:hover {
   transform: scale(1.05);
 }
 
-.links-container aside .facebook {
-  color: #007fff;
+#s-home .links-container aside .facebook {
+  color: #000000;
 }
 
-.links-container aside .facebook:hover {
+#s-home .links-container aside .facebook:hover {
   transform: scale(1.05);
 }
 
-.links-container aside .youtube {
-  color: #007fff;
+#s-home .links-container aside .youtube {
+  color: #000000;
 }
 
-.links-container aside .youtube:hover {
+#s-home .links-container aside .youtube:hover {
   transform: scale(1.05);
 }
 
-.links-container aside .twitch {
-  color: #007fff;
+#s-home .links-container aside .twitch {
+  color: #000000;
 }
 
-.links-container aside .twitch:hover {
+#s-home .links-container aside .twitch:hover {
   transform: scale(1.05);
 }
 
-.links-container aside .spotify {
-  color: #007fff;
+#s-home .links-container aside .spotify {
+  color: #000000;
 }
 
-.links-container aside .spotify:hover {
+#s-home .links-container aside .spotify:hover {
   transform: scale(1.05);
 }
+
+::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: #122549;
+}
+@media (max-width: 414px) {
+  main #s-home {
+    height: 91vh;
+  }
+
+  #dia {
+    top: 1rem;
+    left: 4%;
+  }
+
+  .saudacao {
+    top: 2rem;
+    left: 4.2%;
+  }
+
+  .weather {
+    top: 1rem;
+    left: 5%;
+  }
+
+  #s-home .links-container {
+    top: 25rem;
+    left: 10%;
+  }
+
+  #s-home .links-container aside {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(5, 3rem);
+    grid-template-rows: minmax(3rem, auto) repeat(5, 2rem);
+  }
+
+  #s-home .links-container aside i {
+    font-size: 2rem;
+    padding: 0;
+  }
+} ;
