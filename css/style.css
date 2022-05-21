@@ -20,6 +20,7 @@ body {
 }
 
 #s-home {
+  width: 100%;
   height: 100vh;
 }
 
@@ -30,6 +31,7 @@ body {
   left: 28%;
   cursor: pointer;
   position: absolute;
+  visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
 
@@ -44,6 +46,7 @@ body {
   left: 28.2%;
   cursor: pointer;
   position: absolute;
+  visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
 
@@ -55,6 +58,7 @@ body {
   top: 2rem;
   left: 66%;
   text-align: right;
+  visibility: hidden;
   position: absolute;
 }
 
@@ -112,6 +116,10 @@ main #s-home {
   transform: scale(1.03);
 }
 
+#s-home .infos {
+  visibility: hidden;
+}
+
 #s-home .h3 {
   cursor: pointer;
   font-size: 1.6rem;
@@ -142,16 +150,17 @@ main #s-home {
   transition: all 0.3s ease-in-out;
 }
 
+#s-home .email:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
 .logo {
   width: 8rem;
   top: 25.3rem;
   left: 49.4%;
+  visibility: hidden;
   position: absolute;
-}
-
-#s-home .email:hover {
-  color: #fff;
-  text-decoration: underline;
 }
 
 #s-home .links-container {
@@ -159,6 +168,7 @@ main #s-home {
   left: 23.1rem;
   flex-direction: column;
   top: 28rem;
+  visibility: hidden;
   position: absolute;
 }
 
@@ -278,7 +288,7 @@ main #s-home {
 
 @media (max-width: 414px) {
   main #s-home {
-    width: 100%;
+    width: 100vw;
     height: 91vh;
   }
 
