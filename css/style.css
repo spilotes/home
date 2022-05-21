@@ -32,11 +32,6 @@ body {
   cursor: pointer;
   position: absolute;
   visibility: hidden;
-  transition: all 0.3s ease-in-out;
-}
-
-#dia:hover {
-  color: #fff;
 }
 
 .saudacao {
@@ -47,11 +42,6 @@ body {
   cursor: pointer;
   position: absolute;
   visibility: hidden;
-  transition: all 0.3s ease-in-out;
-}
-
-.saudacao:hover {
-  color: #000000;
 }
 
 .weather {
@@ -296,13 +286,18 @@ main #s-home {
   }
 
   .saudacao {
-    top: 2rem;
+    top: 3rem;
     left: 4.2%;
   }
 
   .weather {
     top: 1rem;
-    left: 5%;
+    left: 45%;
+  }
+
+  .yo {
+    top: 7rem;
+    left: 10%;
   }
 
   #s-home .links-container {
