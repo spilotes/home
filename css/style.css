@@ -286,18 +286,38 @@ main #s-home {
   }
 
   .saudacao {
-    top: 3rem;
-    left: 4.2%;
+    top: 3.7rem;
+    left: 4.8%;
   }
 
   .weather {
     top: 1rem;
-    left: 45%;
+    left: 85%;
   }
 
   .yo {
-    top: 7rem;
-    left: 10%;
+    top: 6.5rem;
+    left: 18%;
+  }
+
+  .h3 {
+    top: 12rem;
+    left: 20%;
+  }
+
+  .span {
+    top: 14rem;
+    left: 20%;
+  }
+
+  .email {
+    top: 16rem;
+    left: 20%;
+  }
+
+  .logo {
+    top: 18rem;
+    left: 20%;
   }
 
   #s-home .links-container {
