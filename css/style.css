@@ -292,7 +292,7 @@ main #s-home {
 
   .weather {
     top: 1rem;
-    left: 95%;
+    left: 92%;
   }
 
   .yo {
@@ -303,22 +303,22 @@ main #s-home {
 
   .h3 {
     top: 20rem;
-    left: -2%;
+    left: -22%;
   }
 
   .span {
     top: 22rem;
-    left: -2%;
+    left: -22%;
   }
 
   .email {
     top: 24rem;
-    left: 2%;
+    left: 22%;
   }
 
   .logo {
     top: 28.5rem;
-    left: 45%;
+    left: 46%;
   }
 
   #s-home .links-container {
@@ -334,7 +334,7 @@ main #s-home {
   }
 
   #s-home .links-container aside i {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     padding: 0;
   }
 } ;
