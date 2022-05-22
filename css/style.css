@@ -292,7 +292,7 @@ main #s-home {
     transition: none;
   }
 
-  h3 {
+  .h3 {
     margin-top: 1.8rem;
     margin-left: -4.7rem;
     transition: none;
