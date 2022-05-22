@@ -289,11 +289,13 @@ main #s-home {
     top: 8.5rem;
     left: 26%;
     border-radius: 6rem;
+    transition: none;
   }
 
   h3 {
     margin-top: 1.8rem;
     margin-left: -4.7rem;
+    transition: none;
   }
 
   span {
@@ -305,6 +307,7 @@ main #s-home {
     margin-top: 1.7rem;
     margin-left: -5.1rem;
     top: 30rem;
+    transition: none;
   }
 
   .logo {

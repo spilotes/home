@@ -1,19 +1,19 @@
 ScrollReveal().reveal("#dia", {
   origin: "top",
   distance: "3rem",
-  duration: 4000,
+  duration: 2000,
 });
 
 ScrollReveal().reveal(".saudacao", {
   origin: "top",
-  distance: "3rem",
-  duration: 4000,
+  distance: "5rem",
+  duration: 2000,
 });
 
 ScrollReveal().reveal(".weather", {
   origin: "top",
-  distance: "3rem",
-  duration: 4000,
+  distance: "5rem",
+  duration: 2000,
 });
 
 ScrollReveal().reveal(".yo", {
