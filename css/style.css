@@ -298,18 +298,18 @@ main #s-home {
   }
 
   h3 {
-    top: 24rem;
-    left: 5%;
+    top: 26rem;
+    margin-left: -6%;
   }
 
   span {
-    top: 26rem;
-    left: -22%;
+    top: 28rem;
+    margin-left: -6%;
   }
 
   .email {
-    margin-left: -8rem;
-    top: 28rem;
+    margin-left: -6rem;
+    top: 30rem;
     left: 22%;
   }
 
@@ -320,7 +320,7 @@ main #s-home {
 
   #s-home .links-container {
     top: 27rem;
-    left: 20%;
+    left: 18%;
   }
 
   #s-home .links-container aside {
