@@ -5,11 +5,15 @@ ScrollReveal().reveal("#dia", {
 });
 
 ScrollReveal().reveal(".saudacao", {
-  duration: 5000,
+  origin: "top",
+  distance: "3rem",
+  duration: 4000,
 });
 
 ScrollReveal().reveal(".weather", {
-  duration: 5000,
+  origin: "top",
+  distance: "3rem",
+  duration: 4000,
 });
 
 ScrollReveal().reveal(".yo", {
