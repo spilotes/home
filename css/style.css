@@ -298,29 +298,29 @@ main #s-home {
   }
 
   h3 {
-    top: 26rem;
+    margin-top: 4rem;
     margin-left: -6%;
   }
 
   span {
-    top: 28rem;
+    margin-top: 6rem;
     margin-left: -6%;
   }
 
   .email {
+    margin-top: 8rem;
     margin-left: -6rem;
     top: 30rem;
-    left: 22%;
   }
 
   .logo {
     top: 26.5rem;
-    left: 47%;
+    left: 47.2%;
   }
 
   #s-home .links-container {
     top: 27rem;
-    left: 18%;
+    left: 17%;
   }
 
   #s-home .links-container aside {
