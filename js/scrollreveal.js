@@ -12,7 +12,19 @@ ScrollReveal().reveal(".weather", {
   duration: 5000,
 });
 
-ScrollReveal().reveal(".links-container", {
+ScrollReveal().reveal(".yo", {
+  duration: 5000,
+});
+
+ScrollReveal().reveal(".h3", {
+  duration: 5000,
+});
+
+ScrollReveal().reveal(".span", {
+  duration: 5000,
+});
+
+ScrollReveal().reveal(".email", {
   duration: 5000,
 });
 
@@ -20,6 +32,6 @@ ScrollReveal().reveal(".logo", {
   duration: 5000,
 });
 
-ScrollReveal().reveal(".infos", {
+ScrollReveal().reveal(".links-container", {
   duration: 5000,
 });
