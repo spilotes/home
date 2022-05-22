@@ -295,6 +295,7 @@ main #s-home {
     width: 13rem;
     top: 5rem;
     left: 24%;
+    border-radius: 6.5rem;
   }
 
   h3 {
