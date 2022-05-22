@@ -93,17 +93,15 @@ main #s-home {
 
 .yo {
   width: 15rem;
-  top: 2rem;
+  top: 6rem;
   left: 41%;
   position: absolute;
+  border-radius: 7.5rem;
   transition: all 0.3s ease-in-out;
 }
 
 .yo:hover {
   transform: scale(1.03);
-}
-
-#s-home .infos {
 }
 
 #s-home .h3 {
