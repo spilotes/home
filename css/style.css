@@ -290,10 +290,10 @@ main #s-home {
   }
 
   .yo {
-    width: 13rem;
-    top: 5rem;
+    width: 12rem;
+    top: 7.5rem;
     left: 24%;
-    border-radius: 6.5rem;
+    border-radius: 6rem;
   }
 
   h3 {
