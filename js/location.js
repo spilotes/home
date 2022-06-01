@@ -15,7 +15,7 @@ window.addEventListener("load", () => {
       lat = position.coords.latitude;
 
       // API ID
-      const api = "7231816e78d0a11eeef9ee8cd7aca011";
+      const api = "95b11822eb429c84c1143a19251b1883";
 
       // API URL
       const base =
