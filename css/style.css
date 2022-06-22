@@ -94,11 +94,11 @@ main #s-home {
 }
 
 .yo {
-  width: 15rem;
+  width: 12rem;
   top: 3.5rem;
   left: 41%;
   position: absolute;
-  border-radius: 7.5rem;
+  border-radius: 6rem;
   transition: all 0.3s ease-in-out;
   visibility: hidden;
 }
@@ -285,10 +285,10 @@ main #s-home {
   }
 
   .yo {
-    width: 12rem;
+    width: 10rem;
     top: 8.5rem;
     left: 26%;
-    border-radius: 6rem;
+    border-radius: 5rem;
   }
 
   .h3 {
