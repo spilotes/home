@@ -95,8 +95,8 @@ main #s-home {
 
 .yo {
   width: 12rem;
-  top: 3.5rem;
-  left: 45%;
+  top: 4rem;
+  left: 42%;
   position: absolute;
   border-radius: 6rem;
   transition: all 0.3s ease-in-out;
@@ -287,7 +287,7 @@ main #s-home {
   .yo {
     width: 11rem;
     top: 8rem;
-    left: 30%;
+    left: 28%;
     border-radius: 5rem;
   }
 
