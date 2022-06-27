@@ -277,6 +277,7 @@ main #s-home {
   .saudacao {
     top: 3.5rem;
     left: 4.8%;
+    font-size: 1.1rem;
   }
 
   .weather {
