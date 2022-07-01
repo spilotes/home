@@ -73,17 +73,22 @@
   }
 
   #s-home .port {
-    top: 41rem;
-    left: 5rem;
+    top: 42rem;
+    left: 8rem;
   }
 
   #s-home .portfolio {
-    top: 43rem;
-    left: 3rem;
+    top: 44.5rem;
+    left: 6rem;
+  }
+
+  #s-home .links {
+    top: 48rem;
+    left: 7rem;
   }
 
   #s-home .links-container {
-    top: 47rem;
+    top: 52rem;
     left: 17%;
   }
 
