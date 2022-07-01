@@ -1,6 +1,6 @@
 @media (max-width: 414px) {
   main #s-home {
-    height: 91vh;
+    height: 200vh;
   }
 
   #dia {
@@ -9,42 +9,67 @@
     font-size: 2rem;
   }
 
-  .saudacao {
+  #s-home .saudacao {
     top: 3.5rem;
     left: 4.8%;
   }
 
-  .weather {
+  #s-home .weather {
     top: 1rem;
     left: 92%;
   }
 
-  .yo {
+  #s-home .yo {
     width: 12rem;
     top: 8.5rem;
     left: 26%;
     border-radius: 50%;
   }
 
-  .h3 {
-    margin-top: 1.8rem;
-    margin-left: -4.7rem;
+  #s-home .css {
+    width: 3rem;
+    top: 13.5rem;
+    left: 7rem;
   }
 
-  span {
-    margin-top: 1.5rem;
-    margin-left: -4.7rem;
+  #s-home .react {
+    width: 4rem;
+    top: 16.5rem;
+    left: 17rem;
   }
 
-  .email {
-    margin-top: 1.7rem;
-    margin-left: -5.1rem;
-    top: 30rem;
+  #s-home .js {
+    width: 3rem;
+    top: 25rem;
+    left: 7.2rem;
   }
 
-  .logo {
-    top: 27rem;
-    left: 48.3%;
+  #s-home .h3 {
+    top: 29.5rem;
+    left: 5.5rem;
+  }
+
+  #s-home .apelido {
+    top: 31.1rem;
+    left: 5.5rem;
+  }
+
+  #s-home .webdev {
+    top: 35rem;
+    left: 5.5rem;
+    font-size: 1.1rem;
+  }
+
+  #s-home .local {
+    top: 36.5rem;
+    left: 5.5rem;
+    font-size: 1.1rem;
+  }
+
+  #s-home .email {
+    top: 38rem;
+    left: 5.5rem;
+    font-size: 1.1rem;
   }
 
   #s-home .links-container {
