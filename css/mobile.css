@@ -28,24 +28,24 @@
 
   #s-home .css {
     width: 3rem;
-    top: 10rem;
+    top: 9rem;
     left: 7rem;
   }
 
   #s-home .react {
     width: 4rem;
-    top: 13.5rem;
+    top: 11.5rem;
     left: 17rem;
   }
 
   #s-home .js {
     width: 3rem;
-    top: 19rem;
-    left: 7.2rem;
+    top: 20rem;
+    left: 7.4rem;
   }
 
   #s-home .h3 {
-    top: 2.5rem;
+    top: 24.5rem;
     left: 5.5rem;
   }
 
@@ -73,7 +73,7 @@
   }
 
   #s-home .links-container {
-    top: 27.5rem;
+    top: 37.5rem;
     left: 17%;
   }
 
