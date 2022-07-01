@@ -74,17 +74,17 @@
 
   #s-home .port {
     top: 42rem;
-    left: 8rem;
+    left: 9.5rem;
   }
 
   #s-home .portfolio {
     top: 44.5rem;
-    left: 6rem;
+    left: 11rem;
   }
 
   #s-home .links {
-    top: 48rem;
-    left: 7rem;
+    top: 50rem;
+    left: 9rem;
   }
 
   #s-home .links-container {
@@ -102,5 +102,15 @@
   #s-home .links-container aside i {
     font-size: 2.6rem;
     padding: 0;
+  }
+
+  #s-home .s-bat {
+    top: 60rem;
+    left: 2rem;
+  }
+
+  #s-home .bat {
+    top: 63rem;
+    left: 6rem;
   }
 } ;
