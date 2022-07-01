@@ -78,13 +78,13 @@
   }
 
   #s-home .portfolio {
-    top: 44.5rem;
-    left: 11rem;
+    top: 45rem;
+    left: 10rem;
   }
 
   #s-home .links {
     top: 51rem;
-    left: 9rem;
+    left: 8.7rem;
   }
 
   #s-home .links-container {
@@ -116,19 +116,19 @@
   }
 
   #s-home .n-bat {
-    top: 76rem;
-    left: 8.5rem;
+    top: 81rem;
+    left: 8.6rem;
     visibility: visible;
   }
 
   #s-home .dicas {
-    top: 83rem;
+    top: 86rem;
     left: 8rem;
   }
 
   #s-home .leitura {
-    top: 87rem;
-    left: 1.5rem;
+    top: 90rem;
+    left: 1.4rem;
     visibility: visible;
   }
 } ;
