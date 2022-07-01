@@ -28,7 +28,7 @@
 
   #s-home .css {
     width: 3rem;
-    top: 9rem;
+    top: 8.5rem;
     left: 7rem;
   }
 
@@ -45,29 +45,29 @@
   }
 
   #s-home .h3 {
-    top: 24.5rem;
+    top: 26.5rem;
     left: 5.5rem;
   }
 
   #s-home .apelido {
-    top: 31.1rem;
+    top: 28.1rem;
     left: 5.5rem;
   }
 
   #s-home .webdev {
-    top: 35rem;
+    top: 32rem;
     left: 5.5rem;
     font-size: 1.1rem;
   }
 
   #s-home .local {
-    top: 36.5rem;
+    top: 33.5rem;
     left: 5.5rem;
     font-size: 1.1rem;
   }
 
   #s-home .email {
-    top: 38rem;
+    top: 35rem;
     left: 5.5rem;
     font-size: 1.1rem;
   }
@@ -81,7 +81,7 @@
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(5, 3.5rem);
-    grid-template-rows: minmax(3.5rem, auto) repeat(5, 2rem);
+    grid-template-rows: minmax(4rem, auto) repeat(5, 2rem);
   }
 
   #s-home .links-container aside i {
