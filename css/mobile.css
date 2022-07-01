@@ -105,30 +105,30 @@
   }
 
   #s-home .s-bat {
-    top: 65rem;
-    left: 1rem;
+    top: 66rem;
+    left: 1.2rem;
   }
 
   #s-home .bat {
-    top: 68rem;
-    left: 6rem;
+    top: 71rem;
+    left: 7.5rem;
     visibility: visible;
   }
 
   #s-home .n-bat {
-    top: 73rem;
-    left: 6.5rem;
+    top: 76rem;
+    left: 8.5rem;
     visibility: visible;
   }
 
   #s-home .dicas {
-    top: 78rem;
-    left: 7rem;
+    top: 83rem;
+    left: 8rem;
   }
 
   #s-home .leitura {
-    top: 82rem;
-    left: 3rem;
+    top: 87rem;
+    left: 1.5rem;
     visibility: visible;
   }
 } ;
