@@ -13,78 +13,35 @@ body {
     linear,
     left top,
     right bottom,
-    from(#122549),
-    to(#ff7c60)
+    from(#030008),
+    to(#00131a)
   );
   overflow-x: hidden;
 }
 
 #s-home {
   width: 100%;
-  height: 100vh;
+  height: 250vh;
 }
 
 #dia {
   font-size: 2.2rem;
   font-weight: 600;
   top: 2rem;
-  left: 20%;
+  left: 9rem;
+  color: #6b727c;
   cursor: pointer;
   position: absolute;
 }
 
 .saudacao {
   font-size: 1.2rem;
-  color: #fff;
+  color: #c9d1d9;
   top: 4.3rem;
-  left: 20.2%;
+  left: 9rem;
   cursor: pointer;
   position: absolute;
   visibility: hidden;
-}
-
-.weather {
-  top: 2rem;
-  left: 74%;
-  text-align: right;
-  position: absolute;
-  visibility: hidden;
-}
-
-.location {
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.location:hover {
-  color: #fff;
-}
-
-.summary {
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.summary:hover {
-  color: #fff;
-}
-
-.temp {
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.temp:hover {
-  color: #fff;
-}
-
-.icon {
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.icon:hover {
-  transform: scale(1.03);
 }
 
 main #s-home {
@@ -94,50 +51,96 @@ main #s-home {
 }
 
 .yo {
-  width: 12rem;
-  top: 4.5rem;
-  left: 43%;
+  width: 14.5rem;
+  top: 5rem;
+  left: 41%;
   position: absolute;
-  border-radius: 6rem;
+  border-radius: 7.5rem;
   transition: all 0.3s ease-in-out;
-  visibility: hidden;
 }
 
 .yo:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
+}
+
+.css {
+  width: 4rem;
+  top: 5rem;
+  left: 34rem;
+  position: absolute;
+}
+
+.react {
+  width: 4.5rem;
+  top: 8rem;
+  left: 48rem;
+  position: absolute;
+}
+
+.js {
+  width: 3.5rem;
+  top: 18rem;
+  left: 36rem;
+  position: absolute;
 }
 
 #s-home .h3 {
   cursor: pointer;
   font-size: 1.6rem;
-  top: 19rem;
-  left: 41.5%;
+  font-weight: 600;
+  top: 23.5rem;
+  left: 35.5rem;
+  color: #c9d1d9;
   position: absolute;
-  transition: all 0.3s ease-in-out;
-  visibility: hidden;
+  transition: all 300ms ease-in-out;
 }
 
 #s-home .h3:hover {
   color: #fff;
 }
 
-#s-home span {
-  top: 21rem;
-  left: 41.6%;
+#s-home .apelido {
+  top: 25.1rem;
+  left: 35.5rem;
+  cursor: pointer;
+  font-size: 1.3rem;
   font-style: italic;
+  color: #6b727c;
   position: absolute;
-  visibility: hidden;
+  transition: all 300ms ease-in-out;
+}
+
+#s-home .apelido:hover {
+  color: #c9d1d9;
+}
+
+#s-home .webdev {
+  top: 28.5rem;
+  left: 35.5rem;
+  color: #c9d1d9;
+  position: absolute;
+}
+
+#s-home .local {
+  top: 30rem;
+  left: 35.8rem;
+  cursor: pointer;
+  color: #c9d1d9;
+  position: absolute;
+  transition: all 300ms ease-in-out;
+}
+
+#s-home .local:hover {
+  color: #fff;
 }
 
 #s-home .email {
-  top: 23rem;
-  left: 41.5%;
-  color: black;
-  font-size: 1.2rem;
+  top: 31.5rem;
+  left: 35.5rem;
+  color: #c9d1d9;
   text-decoration: none;
   position: absolute;
   transition: all 0.3s ease-in-out;
-  visibility: hidden;
 }
 
 #s-home .email:hover {
@@ -145,19 +148,36 @@ main #s-home {
   text-decoration: underline;
 }
 
-.logo {
-  width: 8rem;
-  top: 25.3rem;
-  left: 49.4%;
+#s-home .port {
   position: absolute;
-  visibility: hidden;
+  top: 38rem;
+  left: 39.7rem;
+  color: #c9d1d9;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+#s-home .portfolio {
+  position: absolute;
+  width: 12rem;
+  top: 41rem;
+  left: 39.7rem;
+}
+
+#s-home .links {
+  position: absolute;
+  top: 48rem;
+  left: 38.3rem;
+  color: #c9d1d9;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 #s-home .links-container {
   display: flex;
-  left: 23.1rem;
+  left: 23rem;
   flex-direction: column;
-  top: 28rem;
+  top: 51rem;
   position: absolute;
   visibility: hidden;
 }
@@ -184,7 +204,7 @@ main #s-home {
 }
 
 #s-home .links-container aside .telegram {
-  color: #000000;
+  color: #6b727c;
 }
 
 #s-home .links-container aside .telegram:hover {
@@ -192,7 +212,7 @@ main #s-home {
 }
 
 #s-home .links-container aside .whatsapp {
-  color: #000000;
+  color: #6b727c;
 }
 
 #s-home .links-container aside .whatsapp:hover {
@@ -200,7 +220,7 @@ main #s-home {
 }
 
 #s-home .links-container aside .github {
-  color: #000000;
+  color: #6b727c;
 }
 
 #s-home .links-container aside .github:hover {
@@ -208,7 +228,7 @@ main #s-home {
 }
 
 #s-home .links-container aside .linkedin {
-  color: #000000;
+  color: #6b727c;
 }
 
 #s-home .links-container aside .linkedin:hover {
@@ -216,7 +236,7 @@ main #s-home {
 }
 
 #s-home .links-container aside .instagram {
-  color: #000000;
+  color: #6b727c;
 }
 
 #s-home .links-container aside .instagram:hover {
@@ -224,7 +244,7 @@ main #s-home {
 }
 
 #s-home .links-container aside .codepen {
-  color: #000000;
+  color: #6b727c;
 }
 
 #s-home .links-container aside .codepen:hover {
@@ -232,7 +252,7 @@ main #s-home {
 }
 
 #s-home .links-container aside .facebook {
-  color: #000000;
+  color: #6b727c;
 }
 
 #s-home .links-container aside .facebook:hover {
@@ -240,7 +260,7 @@ main #s-home {
 }
 
 #s-home .links-container aside .youtube {
-  color: #000000;
+  color: #6b727c;
 }
 
 #s-home .links-container aside .youtube:hover {
@@ -248,7 +268,7 @@ main #s-home {
 }
 
 #s-home .links-container aside .twitch {
-  color: #000000;
+  color: #6b727c;
 }
 
 #s-home .links-container aside .twitch:hover {
@@ -256,77 +276,83 @@ main #s-home {
 }
 
 #s-home .links-container aside .spotify {
-  color: #000000;
+  color: #6b727c;
 }
 
 #s-home .links-container aside .spotify:hover {
   transform: scale(1.05);
 }
 
-@media (max-width: 414px) {
-  main #s-home {
-    height: 91vh;
-  }
+#s-home .s-bat {
+  position: absolute;
+  top: 60rem;
+  left: 28rem;
+  color: #c9d1d9;
+}
 
-  #dia {
-    top: 1rem;
-    left: 4%;
-    font-size: 2rem;
-  }
+#s-home .bat {
+  position: absolute;
+  top: 64rem;
+  left: 37.5rem;
+  width: 10rem;
+  padding: 0.2rem 0.2rem;
+  border: 2px solid #c9d1d9;
+  border-radius: 50%;
+  transition: all 300ms ease-in-out;
+  visibility: hidden;
+}
 
-  .saudacao {
-    top: 3.5rem;
-    left: 4.8%;
-    font-size: 1.1rem;
-  }
+#s-home .bat:hover {
+  transform: scale(1.02);
+}
 
-  .weather {
-    top: 1rem;
-    left: 92%;
-  }
+#s-home .n-bat {
+  position: absolute;
+  color: #c9d1d9;
+  top: 74rem;
+  left: 38.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 300ms ease-in-out;
+  visibility: hidden;
+}
 
-  .yo {
-    width: 11rem;
-    top: 8rem;
-    left: 28%;
-    border-radius: 5rem;
-  }
+#s-home .n-bat:hover {
+  color: #fff;
+}
 
-  .h3 {
-    margin-top: 1.8rem;
-    margin-left: -4.7rem;
-  }
+#s-home .dicas {
+  position: absolute;
+  top: 80rem;
+  left: 37.6rem;
+  color: #c9d1d9;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
 
-  span {
-    margin-top: 1.5rem;
-    margin-left: -4.7rem;
-  }
+#s-home .leitura {
+  position: absolute;
+  width: 23rem;
+  top: 85rem;
+  left: 31rem;
+  border: 2px solid #c9d1d9;
+  transition: all 300ms ease-in-out;
+  visibility: hidden;
+}
 
-  .email {
-    margin-top: 1.7rem;
-    margin-left: -5.1rem;
-    top: 30rem;
-  }
+#s-home .leitura:hover {
+  transform: scale(1.02);
+}
 
-  .logo {
-    top: 27rem;
-    left: 48.3%;
-  }
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
 
-  #s-home .links-container {
-    top: 27.5rem;
-    left: 17%;
-  }
+::-webkit-scrollbar-track {
+  background: #000000;
+}
 
-  #s-home .links-container aside {
-    margin-top: 3rem;
-    display: grid;
-    grid-template-columns: repeat(5, 3.5rem);
-    grid-template-rows: minmax(3.5rem, auto) repeat(5, 2rem);
-  }
-
-  #s-home .links-container aside i {
-    font-size: 2.6rem;
-    padding: 0;
-  }
-} ;
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: #6b727c;
+}
