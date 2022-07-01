@@ -21,31 +21,31 @@
 
   #s-home .yo {
     width: 12rem;
-    top: 8.5rem;
+    top: 9rem;
     left: 26%;
     border-radius: 50%;
   }
 
   #s-home .css {
     width: 3rem;
-    top: 13.5rem;
+    top: 10rem;
     left: 7rem;
   }
 
   #s-home .react {
     width: 4rem;
-    top: 16.5rem;
+    top: 13.5rem;
     left: 17rem;
   }
 
   #s-home .js {
     width: 3rem;
-    top: 25rem;
+    top: 19rem;
     left: 7.2rem;
   }
 
   #s-home .h3 {
-    top: 29.5rem;
+    top: 2.5rem;
     left: 5.5rem;
   }
 
