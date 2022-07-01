@@ -83,12 +83,12 @@
   }
 
   #s-home .links {
-    top: 50rem;
+    top: 51rem;
     left: 9rem;
   }
 
   #s-home .links-container {
-    top: 52rem;
+    top: 53rem;
     left: 17%;
   }
 
@@ -105,12 +105,30 @@
   }
 
   #s-home .s-bat {
-    top: 60rem;
-    left: 2rem;
+    top: 65rem;
+    left: 1rem;
   }
 
   #s-home .bat {
-    top: 63rem;
+    top: 68rem;
     left: 6rem;
+    visibility: visible;
+  }
+
+  #s-home .n-bat {
+    top: 73rem;
+    left: 6.5rem;
+    visibility: visible;
+  }
+
+  #s-home .dicas {
+    top: 78rem;
+    left: 7rem;
+  }
+
+  #s-home .leitura {
+    top: 82rem;
+    left: 3rem;
+    visibility: visible;
   }
 } ;
