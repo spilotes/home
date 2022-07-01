@@ -72,8 +72,18 @@
     font-size: 1.1rem;
   }
 
+  #s-home .port {
+    top: 38rem;
+    left: 5rem;
+  }
+
+  #s-home .portfolio {
+    top: 41rem;
+    left: 3remrem;
+  }
+
   #s-home .links-container {
-    top: 37.5rem;
+    top: 44rem;
     left: 17%;
   }
 
