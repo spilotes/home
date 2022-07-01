@@ -1,6 +1,6 @@
 @media (max-width: 414px) {
   main #s-home {
-    height: 200vh;
+    height: 210vh;
   }
 
   #dia {
@@ -122,12 +122,12 @@
   }
 
   #s-home .dicas {
-    top: 87rem;
+    top: 88rem;
     left: 7.8rem;
   }
 
   #s-home .leitura {
-    top: 91.5rem;
+    top: 92.5rem;
     left: 2.3rem;
     width: 21rem;
     visibility: visible;
