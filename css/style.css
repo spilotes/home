@@ -72,9 +72,19 @@ main #s-home {
 
 .react {
   width: 4.5rem;
-  top: 8rem;
-  left: 48rem;
+  top: 6.5rem;
+  left: 46rem;
   position: absolute;
+  animation: girar 24s linear infinite;
+}
+
+@keyframes girar {
+  0% {
+    transform: translate(50%, 50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(50%, 50%) rotate(-360deg);
+  }
 }
 
 .js {
