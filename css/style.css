@@ -99,6 +99,24 @@ main #s-home {
   color: #fff;
 }
 
+#s-home .h3::after {
+  content: "|";
+  opacity: 1;
+  margin-left: 0.3rem;
+  display: inline-block;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
 #s-home .apelido {
   top: 25.1rem;
   left: 35.5rem;
