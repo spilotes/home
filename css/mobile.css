@@ -132,4 +132,14 @@
     width: 18rem;
     visibility: visible;
   }
+
+  #s-home .total {
+    top: 100rem;
+    right: 4rem;
+  }
+
+  #s-home .counter {
+    top: 100rem;
+    right: 1rem;
+  }
 } ;

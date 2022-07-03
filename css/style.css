@@ -362,6 +362,19 @@ main #s-home {
   transform: scale(1.01);
 }
 
+#s-home .total {
+  position: absolute;
+  top: 101rem;
+  right: 4rem;
+  color: #c9d1d9;
+}
+
+#s-home .counter {
+  position: absolute;
+  top: 101rem;
+  right: 1rem;
+}
+
 ::-webkit-scrollbar {
   width: 0.5rem;
 }
